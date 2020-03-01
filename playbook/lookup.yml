@@ -1,0 +1,10 @@
+---
+- hosts: mysql
+  become: true
+  vars:
+    contents: "{{ lookup('file', '/etc/hosts') }}"
+  tasks:
+    - debug: msg="the contents of /etc/hosts is = {{ contents }}"
+    - debug: msg="User in integration is = {{ lookup('ini', 'user section=integration file=data/users.ini') }}"
+    - debug: msg="user.name is = {{ lookup('ini', 'user.name type=properties file=data/example.properties') }}"
+

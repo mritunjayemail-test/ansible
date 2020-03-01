@@ -10,3 +10,6 @@ mysql-test:
 gather-facts:
 	ansible-playbook playbook/gather-facts.yml
 
+lookup:
+	ansible-playbook playbook/lookup.yml
+
