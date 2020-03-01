@@ -1,0 +1,28 @@
+- hostname:
+    name: web01
+
+
+- name: run the new module
+  my-module:
+    name: 'This is Message'
+    new: true
+  register: testout
+- name: dump test output
+  debug:
+    msg: '{{ testout }}'
+
+- name: "{{message}}"
+  github_repo: 
+  register: result
+
+- debug: var=result
+
+- name: install the latest version of Apache
+  yum:
+    name: httpd
+    state: latest
+
+- name: template operation
+  template: src=templates/example.j2 dest=/var/www/html/index.html
+  notify:
+      - restart apache

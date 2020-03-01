@@ -1,0 +1,6 @@
+---
+# vars file for roles/httpds
+apache: httpd
+packager: yum
+message: Welcome to ansible
+http_port: 9000000

@@ -1,0 +1,11 @@
+---
+# vars file for roles/mysql
+vars:
+    mysql:
+      db: project-database
+      user: myuser
+      password: passwourld
+      privileges: '*.*:ALL'
+      host: '%'
+      bind:
+        - 0.0.0.0

@@ -1,0 +1,7 @@
+---
+- hosts: remote
+  become: true
+  roles:
+#    - httpd
+    - mysql
+

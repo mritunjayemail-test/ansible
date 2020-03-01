@@ -1,0 +1,7 @@
+[local]
+localhost ansible_connection=local
+[remote]
+35.177.247.145 
+
+[mysql]
+localhost ansible_connection=local
