@@ -1,5 +1,5 @@
 ---
-- hosts: remote
+- hosts: mysql
   become: true
   roles:
     - { role: mysql }
