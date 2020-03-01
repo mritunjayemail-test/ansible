@@ -5,6 +5,7 @@ from mysql.connector import errorcode
 try:
     connection = mysql.connector.connect(host='localhost',
                                          database='TUTORIALS',
+                                         port='3306',
                                          user='root',
                                          password='root')
     mySql_insert_query = """INSERT INTO addressbook (name, phone, website) 
