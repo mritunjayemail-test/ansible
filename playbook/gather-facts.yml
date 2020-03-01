@@ -1,0 +1,11 @@
+---
+- hosts: mysql
+  become: true
+  tasks:
+    - name: Gather Facts all
+      debug:
+        msg: "{{ ansible_facts }}"
+
+    - name: Gather architecture
+      debug:
+        msg: "{{ ansible_facts.architecture }}"
