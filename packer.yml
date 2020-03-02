@@ -1,0 +1,7 @@
+---
+- hosts: mysql
+  become: true
+  roles:
+    - { role: packer }
+
+    

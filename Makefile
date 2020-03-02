@@ -13,3 +13,8 @@ gather-facts:
 lookup:
 	ansible-playbook playbook/lookup.yml
 
+packer:
+	ansible-playbook packer.yml
+
+terraform:
+	ansible-playbook terraform.yml
