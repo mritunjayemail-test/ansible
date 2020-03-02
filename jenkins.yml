@@ -1,0 +1,8 @@
+---
+- hosts: mysql
+  become: true
+  roles:
+    - { role: java }
+    - { role: jenkins }
+
+            
