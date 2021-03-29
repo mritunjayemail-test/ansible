@@ -50,7 +50,7 @@ psycopg2==2.7.5
 pyasn1==0.3.7
 pycparser==2.14
 pycurl==7.43.0.2
-Pygments==2.5.2
+Pygments==2.7.4
 pygobject==3.28.3
 pyinotify==0.9.6
 PyJWT==1.6.1
