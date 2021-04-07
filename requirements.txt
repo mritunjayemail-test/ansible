@@ -1,5 +1,5 @@
 alabaster==0.7.12
-ansible==2.9.3
+ansible==2.10.0
 appdirs==1.4.3
 asn1crypto==0.24.0
 awxkit==9.2.0
