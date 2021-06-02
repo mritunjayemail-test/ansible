@@ -90,6 +90,6 @@ subscription-manager==1.25.17
 supervisor==4.0.4
 syspurpose==1.25.17
 systemd-python==234
-urllib3==1.24.2
+urllib3==1.26.5
 virtualenv==20.0.7
 zipp==3.0.0
