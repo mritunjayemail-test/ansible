@@ -3,7 +3,7 @@ ansible==2.9.3
 appdirs==1.4.3
 asn1crypto==0.24.0
 awxkit==9.2.0
-Babel==2.5.1
+Babel==2.9.1
 bcrypt==3.1.6
 cffi==1.11.5
 chardet==3.0.4
