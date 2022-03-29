@@ -39,7 +39,7 @@ mysql-connector-python==8.0.19
 netifaces==0.10.6
 oauthlib==2.1.0
 packaging==20.1
-paramiko==2.4.3
+paramiko==2.10.1
 pciutils==2.3.6
 perf==0.1
 ply==3.9
