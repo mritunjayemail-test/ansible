@@ -70,7 +70,7 @@ pyzmq==17.0.0
 requests==2.20.0
 rhnlib==2.8.6
 rpm==4.14.2
-salt==3000
+salt==3003.5
 schedutils==0.6
 selinux==2.9
 sepolicy==1.1
